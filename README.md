@@ -48,6 +48,23 @@ Ao final do desenvolvimento (10 de agosto), o projeto entregará:
 
 ---
 
+## 🛠️ Como Compilar e Executar
+
+Este projeto utiliza o `gcc` e o `mingw32-make` (no Windows) para automação da compilação e execução.
+
+### Pré-requisitos
+- Compilador **GCC** instalado e configurado nas variáveis de ambiente (PATH).
+- Ferramenta **Make** (ex: `mingw32-make` no Windows via MinGW).
+
+### Comandos de Compilação
+
+- **Compilar o projeto:**
+  Cria a pasta de saída `app/output` (caso não exista) e gera o executável `main.exe`.
+  ```bash
+  mingw32-make
+
+---
+
 ## 📂 Estrutura do Repositório
 
 ```text
