@@ -3,7 +3,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -g3 -I.
 
 # Arquivos fontes e executável
-SRC = app/main.c fundamentos_c/revisao.c
+SRC = app/main.c fundamentos_c/revisao.c fundamentos_c/temperaturas.c
 EXEC = app/output/main.exe
 
 # Regra principal (compilar)
