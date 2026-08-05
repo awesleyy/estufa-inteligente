@@ -106,3 +106,49 @@ Uma TV de $100\,\text{W}$ ($0{,}1\,\text{kW}$) permanece ligada durante $5\,\tex
 * **b) Custo total:**
   $$\text{Custo} = 15\,\text{kWh} \cdot \text{R\$ } 0{,}80$$
   $$\text{Custo} = \text{R\$ } 12{,}00$$
+
+---
+
+## Exercício 7: Resistor Limitador para LED Vermelho (Fonte de 5V)
+
+**Enunciado:**
+Um LED vermelho funciona com uma tensão de $2\,\text{V}$ e precisa de uma corrente de $20\,\text{mA}$ ($0{,}02\,\text{A}$) para brilhar com segurança. Sabendo que ele será ligado ao pino de $5\,\text{V}$ do Arduino, qual deve ser o valor da resistência do resistor limitador?
+
+* **Dados:**
+  * $V_{\text{fonte}} = 5\,\text{V}$
+  * $V_{\text{LED}} = 2\,\text{V}$
+  * $I = 20\,\text{mA} = 0{,}02\,\text{A}$
+  * $R = ?$
+
+* **Fórmula:**
+  $$R = \frac{V_{\text{fonte}} - V_{\text{LED}}}{I}$$
+
+* **Substituição:**
+  $$R = \frac{5 - 2}{0{,}02}$$
+  $$R = \frac{3}{0{,}02}$$
+
+* **Resultado:**
+  $$R = 150\,\Omega$$
+
+---
+
+## Exercício 8: Resistor Limitador para LED Azul (Fonte de 12V)
+
+**Enunciado:**
+Um LED azul possui uma queda de tensão de $3{,}2\,\text{V}$ e opera com corrente de $20\,\text{mA}$ ($0{,}02\,\text{A}$). Qual deve ser o valor da resistência para conectá-lo com segurança a uma bateria de $12\,\text{V}$?
+
+* **Dados:**
+  * $V_{\text{fonte}} = 12\,\text{V}$
+  * $V_{\text{LED}} = 3{,}2\,\text{V}$
+  * $I = 20\,\text{mA} = 0{,}02\,\text{A}$
+  * $R = ?$
+
+* **Fórmula:**
+  $$R = \frac{V_{\text{fonte}} - V_{\text{LED}}}{I}$$
+
+* **Substituição:**
+  $$R = \frac{12 - 3{,}2}{0{,}02}$$
+  $$R = \frac{8{,}8}{0{,}02}$$
+
+* **Resultado:**
+  $$R = 440\,\Omega$$
